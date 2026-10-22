@@ -1,27 +1,15 @@
-# ErtugrulAK
+# Hi, I'm Ertugrul
 
-CS student at Dokuz Eylul University. I build small full-stack and data
-projects and document what the code actually does — no invented demos, no
-borrowed buzzwords.
+I recently graduated in Computer Engineering from Dokuz Eylul University.
 
-## What I work with
-Python (FastAPI, scikit-learn, stable-baselines3) · React (create-react-app) · C# /
-ASP.NET Core · PostgreSQL / MySQL · Firebase Auth + Firestore · YOLOv8 / NCNN export · Git workflows
+I enjoy working on different kinds of software projects and learning something new with each one. This profile is where I keep what I built during university and in my own time.
 
-## Projects
+## A few projects
 
-| Repo | What it is (verified in code) | State |
-|---|---|---|
-| [task-manager-pro](https://github.com/ErtugrulAK/task-manager-pro) | React + Firebase task app: per-user Firestore isolation, composite index, `addWelcomeTask` Cloud Function | course project, runs with your own Firebase config |
-| [taboo-ai-game](https://github.com/ErtugrulAK/taboo-ai-game) | Taboo game: FastAPI + React, Gemini as the AI guesser, NLTK moderation, deck kept server-side on purpose | runnable, keyless boot supported |
-| [autonomous-indoor-mapping](https://github.com/ErtugrulAK/autonomous-indoor-mapping) | YOLOv8 detector training/export (incl. NCNN), simulated occupancy-grid mapping, telemetry dashboard, Arduino odometry firmware | coursework; mapping is simulated — see README limitations |
-| [data-mining](https://github.com/ErtugrulAK/data-mining) | Coursework: RandomForest demand model + PPO (stable-baselines3/Gymnasium) pricing agent on synthetic e-commerce data, FastAPI + Next.js dashboard | results shown in report/notebooks, no benchmark claims |
-| [bookstore-management-system](https://github.com/ErtugrulAK/bookstore-management-system) | Team project (course, 2 authors — see contributors): ASP.NET Core API + Postgres, React admin, JWT auth | internal project; not deployed publicly |
+- [Task Manager Pro](https://github.com/ErtugrulAK/task-manager-pro) — a task management web app I built with Firebase Auth and Firestore. Started as a university project, then became my own thing.
+- [Taboo AI Game](https://github.com/ErtugrulAK/taboo-ai-game) — a Taboo-style word game where an AI tries to guess the hidden word from clues.
+- [Autonomous Indoor Mapping](https://github.com/ErtugrulAK/autonomous-indoor-mapping) — university project: object detection plus a simulated indoor mapping pipeline. The mapping is simulated, not a running robot. Its Git history still has some old configuration to clean up before I'd call it fully public-ready.
+- [Data Mining](https://github.com/ErtugrulAK/data-mining) — university project about dynamic pricing, with a classical ML baseline and a small reinforcement-learning agent. Same note as above about history cleanup.
+- [Bookstore Management System](https://github.com/ErtugrulAK/bookstore-management-system) — a team project from a course; most commits belong to my teammate, and I'd rather it stay online with its real history once our credential cleanup is done.
 
-## Notes
-
-- Where a README says *simulated*, it is simulated; where it says
-  *untested*, no CI was run — honesty over polish.
-- Screenshots/GIFs: being added only from real local runs.
-
-Contact: ertugrul14ak@gmail.com
+Most of these started as course assignments, so expect university-level scope and a few rough edges. The first two are the ones I'd point at first — they were recently reviewed and cleaned up.
